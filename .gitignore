@@ -1,0 +1,84 @@
+# Compiled object files
+*.o
+*.lo
+*.la
+*.al
+*.i
+*.ii
+*.s
+*.swp
+
+# Compiled dynamic libraries
+*.so
+*.dylib
+
+# Compiled static libraries
+*.a
+*.lib
+*.pch
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# CLion specific files
+.idea/
+cmake-build-debug/
+cmake-build-release/
+cmake-build-*
+CMakeLists.txt.user
+build/
+
+# CMake specific files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+CTestTestfile.cmake
+Makefile
+
+# Mac OS X files
+.DS_Store
+
+# Windows files
+Thumbs.db
+Thumbs.db:encryptable
+Desktop.ini
+
+# Backup files
+*~
+
+dataset/
+test_log/
+venv/
+
+# JetBrains specific
+# User-specific stuff:
+.idea
+.vscode
+.vs
+.clangd
+
+# Sensitive or system files
+*.key
+*.pem
+*.crt
+
+# Log files
+*.log
+
+# Additional generic files
+*.cache
+*.pyc
+*.pyo
+*.pyd
+
+# Temporary files
+*.tmp
+*.temp
